@@ -7,3 +7,7 @@ resource "aws_instance" "MyFirstInstnace" {
     Name = "demoinstnce"
   }
 }
+
+resource "aws_instance" "mysecondinstance" {
+  ami = "trainingclass"
+}
